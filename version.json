@@ -1,0 +1,13 @@
+{
+  "version": "1.2.5build14",
+  "eventtext": "Event",
+  "roundoption": "keep",
+  "theme": "system",
+  "disc": "1",
+  "tomb": true,
+  "snowball": true,
+  "azure": true,
+  "kuro": true,
+  "changelog": "※ แก้ไขชื่อหน้าต่างเกม ให้เป็นเวอร์ชันล่าสุด 'Onmyoji' > '陰陽師Onmyoji'\n※ เพิ่ม Delay ในการค้นหารูปภาพ และเพิ่มฟังก์ชันให้สามารถปรับแก้ค่า Delay เองได้\n※ แก้ไขการบันทึก Config ให้บันทึกค่า Wanted Quest และ Find Image Delay",
+  "notify": true
+}
