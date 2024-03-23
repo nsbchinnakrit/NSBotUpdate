@@ -1,10 +1,10 @@
 {
   "VALUE": {
-    "FIND_IMG_DELAY": 0.01,
+    "FIND_IMG_DELAY": 0.08,
     "WQ_JADE": true,
-    "WQ_COIN": false,
-    "WQ_SUSHI": false,
-    "WQ_FOOD": false
+    "WQ_COIN": true,
+    "WQ_SUSHI": true,
+    "WQ_FOOD": true
   },
   "DEFAULT": {
     "IMAGE_FINISHED0_PATH": "./screenshots/Default/finished0.png",
