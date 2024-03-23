@@ -1,7 +1,7 @@
 {
   "VALUE": {
-    "FIND_IMG_DELAY": 0.08,
-    "WQ_JADE": false,
+    "FIND_IMG_DELAY": 0.01,
+    "WQ_JADE": true,
     "WQ_COIN": false,
     "WQ_SUSHI": false,
     "WQ_FOOD": false
