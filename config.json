@@ -1,10 +1,10 @@
 {
   "VALUE": {
-    "FIND_IMG_DELAY": 0.08,
-    "WQ_JADE": true,
-    "WQ_COIN": true,
-    "WQ_SUSHI": true,
-    "WQ_FOOD": true
+    "FIND_IMG_DELAY": 0.01,
+    "WQ_JADE": false,
+    "WQ_COIN": false,
+    "WQ_SUSHI": false,
+    "WQ_FOOD": false
   },
   "DEFAULT": {
     "IMAGE_FINISHED0_PATH": "./screenshots/Default/finished0.png",
@@ -30,6 +30,7 @@
   "SOUL": {
     "IMAGE_SINGLE_SOUL_LOCK_PATH": "./screenshots/Soul/lock.png",
     "IMAGE_SINGLE_SOUL_STAT_PATH": "./screenshots/Soul/singlesoul.png",
+    "IMAGE_SINGLE_TOTEM_STAT_PATH": "./screenshots/Soul/singletotem.png",
     "IMAGE_SOUL_STARTCN_PATH": "./screenshots/Soul/startcn.png",
     "IMAGE_SOUL_INVITE_PATH": "./screenshots/Soul/teamInvite.png",
     "IMAGE_SOUL_AUTOACCEPT_PATH": "./screenshots/Soul/autoaccept.png",
