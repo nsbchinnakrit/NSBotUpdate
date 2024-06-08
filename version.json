@@ -1,5 +1,5 @@
 {
-  "version": "1.2.6",
+  "version": "1.2.6Build1",
   "eventtext": "Event",
   "roundoption": "keep",
   "theme": "system",
@@ -8,6 +8,6 @@
   "snowball": true,
   "azure": true,
   "kuro": true,
-  "changelog": "※ แก้ไขปัญหาบอทกดปุ่มทีม แทนปุ่มเริ่ม ในโหมด Single\n※ เนื่องจากมีการเปลี่ยนเวอร์ชันโปรแกรม auto-py-to-exe ทำให้เส้นทางของโฟลเดอร์\n     มีการเปลี่ยนแปลง หากพบ Bug สามารถแจ้งใน Discord",
+  "changelog": "※ 1.2.6Build1: แก้ไขปัญหาบอทไม่หยุดทำงาน เมื่อซูชิหมด ในโหมด Soul Team\n※ แก้ไขปัญหาบอทกดปุ่มทีม แทนปุ่มเริ่ม ในโหมด Single\n※ เนื่องจากมีการเปลี่ยนเวอร์ชันโปรแกรม auto-py-to-exe ทำให้เส้นทางของโฟลเดอร์\n     มีการเปลี่ยนแปลง หากพบ Bug สามารถแจ้งใน Discord",
   "notify": true
 }
