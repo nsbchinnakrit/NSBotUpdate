@@ -1,5 +1,5 @@
 {
-  "version": "1.2.7",
+  "version": "1.2.8",
   "eventtext": "Event",
   "roundoption": "keep",
   "theme": "system",
@@ -8,6 +8,6 @@
   "snowball": true,
   "azure": true,
   "kuro": true,
-  "changelog": "※ แก้ไขปัญหา บอทไม่กดเริ่มในโหมด Bondling Fairyland",
+  "changelog": "※ แก้ไขปัญหา บอทไม่กดเริ่มในโหมด Bondling Fairyland : Pact",
   "notify": true
 }
