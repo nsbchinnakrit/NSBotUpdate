@@ -1,13 +1,13 @@
 {
-  "version": "1.2.8",
+  "version": "1.2.9",
   "eventtext": "Event",
   "roundoption": "keep",
   "theme": "system",
   "disc": "1",
-  "tomb": true,
-  "snowball": true,
+  "tomb": false,
+  "snowball": false,
   "azure": true,
-  "kuro": true,
-  "changelog": "※ แก้ไขปัญหา บอทไม่กดเริ่มในโหมด Bondling Fairyland : Pact",
+  "kuro": false,
+  "changelog": "※ ปรับปรุงการนับรอบ Bondling Fairyland : Pact และ Both\n    ให้นับรอบเฉพาะตอนจับสัตว์เลี้ยงได้\n\n※ Explore แบบทีม : ปรับให้หัวห้อง ออกห้องหลังจบบอสไวขึ้น",
   "notify": true
 }
