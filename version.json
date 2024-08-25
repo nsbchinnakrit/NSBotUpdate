@@ -1,5 +1,5 @@
 {
-  "version": "1.2.9build2",
+  "version": "1.2.9build3",
   "eventtext": "Event",
   "roundoption": "keep",
   "theme": "system",
@@ -8,6 +8,6 @@
   "snowball": false,
   "azure": true,
   "kuro": false,
-  "changelog": "NSBot 1.2.9build2 (25 สิงหาคม 2024)\n※ แก้ไข Bug จากการปรับปรุงโหมด Bondling Fairyland\n\nNSBot 1.2.9 (25 สิงหาคม 2024)\n※ ปรับปรุงการนับรอบ Bondling Fairyland : Pact และ Both\n    ให้นับรอบเฉพาะตอนจับสัตว์เลี้ยงได้\n※ Explore แบบทีม : ปรับให้หัวห้อง ออกห้องหลังจบบอสไวขึ้น",
+  "changelog": "NSBot 1.2.9build2 and 1.2.9build3 (25 สิงหาคม 2024)\n※ แก้ไข Bug จากการปรับปรุงโหมด Bondling Fairyland\n\nNSBot 1.2.9 (25 สิงหาคม 2024)\n※ ปรับปรุงการนับรอบ Bondling Fairyland : Pact และ Both\n    ให้นับรอบเฉพาะตอนจับสัตว์เลี้ยงได้\n※ Explore แบบทีม : ปรับให้หัวห้อง ออกห้องหลังจบบอสไวขึ้น",
   "notify": true
 }
