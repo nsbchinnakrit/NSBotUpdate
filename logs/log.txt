@@ -1,0 +1,4 @@
+[16:00:55] DEBUG [runprocess | 71]: GameMode:[SingleSoul], Server:[JP], Total Round:[500]
+[16:00:55] INFO [SingleSoul | 234]: 
+
+==================Starting a new round==================

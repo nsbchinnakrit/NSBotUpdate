@@ -1,0 +1,92 @@
+[21:11:15] DEBUG [runprocess | 70]: GameMode:[Explore], Server:[CN], Total Round:[30]
+[21:11:15] INFO [Explore | 303]: 
+
+==================Starting a new round==================
+[21:11:16] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/leadcn.png, value:0.9999987483024597, pos:[17, 26]
+[21:11:16] INFO [Explore | 104]: Leader Detected in display..
+[21:11:16] DEBUG [GameControl | 584]: Found:./screenshots/Story/fight.png, value:0.9821053743362427, pos:[936, 261]
+[21:11:16] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.9610608816146851, pos:[621, 24]
+[21:11:16] DEBUG [GameControl | 584]: Found:./screenshots/Story/fight.png, value:0.9821053743362427, pos:[936, 261]
+[21:11:16] INFO [Explore | 136]: Monster was detected... 
+[21:11:19] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/readycn.png, value:0.979037344455719, pos:[1045, 523]
+[21:11:19] INFO [Explore | 145]: Starting battle.... 
+[21:11:27] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1_2.png, value:0.9410317540168762, pos:[71, 584]
+[21:11:28] INFO [Explore | 173]: Finishing...
+[21:11:32] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.9610604047775269, pos:[621, 24]
+[21:11:33] INFO [Explore | 308]: completed 11, remaining 19 round
+[21:11:33] INFO [Explore | 303]: 
+
+==================Starting a new round==================
+[21:11:34] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/leadcn.png, value:0.9999987483024597, pos:[17, 26]
+[21:11:34] DEBUG [GameControl | 584]: Found:./screenshots/Story/fight.png, value:0.9821046590805054, pos:[731, 254]
+[21:11:34] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.9610608816146851, pos:[621, 24]
+[21:11:34] DEBUG [GameControl | 584]: Found:./screenshots/Story/fight.png, value:0.9821053743362427, pos:[731, 254]
+[21:11:34] INFO [Explore | 136]: Monster was detected... 
+[21:11:37] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/readycn.png, value:0.9810324311256409, pos:[1048, 525]
+[21:11:37] INFO [Explore | 145]: Starting battle.... 
+[21:11:48] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1.png, value:0.9665178060531616, pos:[350, 76]
+[21:11:48] INFO [Explore | 173]: Finishing...
+[21:11:53] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.9610599875450134, pos:[621, 24]
+[21:11:54] INFO [Explore | 308]: completed 12, remaining 18 round
+[21:11:54] INFO [Explore | 303]: 
+
+==================Starting a new round==================
+[21:11:55] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/leadcn.png, value:0.9999987483024597, pos:[17, 26]
+[21:11:55] DEBUG [GameControl | 584]: Found:./screenshots/Story/fight.png, value:0.9821046590805054, pos:[690, 362]
+[21:11:55] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.9610608816146851, pos:[621, 24]
+[21:11:55] DEBUG [GameControl | 584]: Found:./screenshots/Story/fight.png, value:0.982105016708374, pos:[679, 360]
+[21:11:55] INFO [Explore | 136]: Monster was detected... 
+[21:11:58] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/readycn.png, value:0.979037344455719, pos:[1045, 523]
+[21:11:58] INFO [Explore | 145]: Starting battle.... 
+[21:12:06] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1_2.png, value:0.9410437345504761, pos:[71, 584]
+[21:12:06] INFO [Explore | 173]: Finishing...
+[21:12:11] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.9610608816146851, pos:[621, 24]
+[21:12:12] INFO [Explore | 308]: completed 13, remaining 17 round
+[21:12:12] INFO [Explore | 303]: 
+
+==================Starting a new round==================
+[21:12:13] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/leadcn.png, value:0.9999987483024597, pos:[17, 26]
+[21:12:14] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.9610608816146851, pos:[621, 24]
+[21:12:17] DEBUG [GameControl | 584]: Found:./screenshots/Story/fight.png, value:0.982105016708374, pos:[938, 275]
+[21:12:17] INFO [Explore | 136]: Monster was detected... 
+[21:12:20] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/readycn.png, value:0.979037344455719, pos:[1045, 523]
+[21:12:20] INFO [Explore | 145]: Starting battle.... 
+[21:12:28] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1_2.png, value:0.9409381151199341, pos:[71, 59]
+[21:12:28] INFO [Explore | 173]: Finishing...
+[21:12:33] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.9620599746704102, pos:[621, 24]
+[21:12:34] INFO [Explore | 308]: completed 14, remaining 16 round
+[21:12:34] INFO [Explore | 303]: 
+
+==================Starting a new round==================
+[21:12:35] DEBUG [GameControl | 584]: Found:./screenshots/Story/fight.png, value:0.982105016708374, pos:[209, 341]
+[21:12:35] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.9609317779541016, pos:[621, 24]
+[21:12:36] DEBUG [GameControl | 584]: Found:./screenshots/Story/fightBoss.png, value:0.974024772644043, pos:[567, 247]
+[21:12:36] INFO [Explore | 126]: BOSS was detected: 
+[21:12:38] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/readycn.png, value:0.979037344455719, pos:[1045, 523]
+[21:12:38] INFO [Explore | 145]: Starting battle.... 
+[21:12:47] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1_2.png, value:0.9410311579704285, pos:[71, 584]
+[21:12:47] INFO [Explore | 173]: Finishing...
+[21:12:51] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.962043821811676, pos:[621, 24]
+[21:12:53] INFO [Explore | 190]: Get treasure.... Test
+[21:12:53] INFO [GameControl | 368]: Press "ESC"
+[21:12:55] INFO [Explore | 308]: completed 15, remaining 15 round
+[21:12:55] INFO [Explore | 303]: 
+
+==================Starting a new round==================
+[21:12:58] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/inviteDialogcn.png, value:0.9921415448188782, pos:[465, 277]
+[21:12:58] INFO [Explore | 65]: Invited..
+[21:13:03] DEBUG [GameControl | 584]: Found:./screenshots/Soul/teamInvite.png, value:0.9953360557556152, pos:[966, 224]
+[21:13:03] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/soulstartcn.png, value:0.9763422012329102, pos:[1080, 565]
+[21:13:03] DEBUG [GameControl | 584]: Found:./screenshots/Soul/teamInvite.png, value:0.9953360557556152, pos:[966, 224]
+[21:13:06] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/soulstartcn.png, value:0.9763419032096863, pos:[1080, 565]
+[21:13:06] INFO [Explore | 80]: Start... 
+[21:13:10] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/leadcn.png, value:0.9999977946281433, pos:[17, 26]
+[21:13:10] DEBUG [GameControl | 584]: Found:./screenshots/Story/fight.png, value:0.9821053743362427, pos:[991, 261]
+[21:13:10] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.9607722759246826, pos:[621, 24]
+[21:13:10] DEBUG [GameControl | 584]: Found:./screenshots/Story/fight.png, value:0.9821053743362427, pos:[991, 261]
+[21:13:10] INFO [Explore | 136]: Monster was detected... 
+[21:13:13] DEBUG [GameControl | 584]: Found:./screenshots/MultiServ/readycn.png, value:0.979037344455719, pos:[1045, 523]
+[21:13:13] INFO [Explore | 145]: Starting battle.... 
+[21:13:19] DEBUG [GameControl | 584]: Found:./screenshots/Default/finished1_2.png, value:0.9410735368728638, pos:[71, 59]
+[21:13:20] INFO [Explore | 173]: Finishing...
+[21:13:27] DEBUG [GameControl | 584]: Found:./screenshots/Story/cherryCake.png, value:0.9607722759246826, pos:[621, 24]

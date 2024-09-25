@@ -1,10 +1,10 @@
 {
   "VALUE": {
-    "FIND_IMG_DELAY": 0.06,
+    "FIND_IMG_DELAY": 0.01,
     "WQ_JADE": true,
-    "WQ_COIN": true,
-    "WQ_SUSHI": true,
-    "WQ_FOOD": true
+    "WQ_COIN": false,
+    "WQ_SUSHI": false,
+    "WQ_FOOD": false
   },
   "DEFAULT": {
     "IMAGE_FINISHED0_PATH": "./screenshots/Default/finished0.png",
@@ -25,6 +25,7 @@
     "IMAGE_WQ_SUSHI": "./screenshots/Default/wq_sushi.png",
     "IMAGE_WQ_FOODDOG": "./screenshots/Default/wq_fooddog.png",
     "IMAGE_WQ_FOODCAT": "./screenshots/Default/wq_foodcat.png",
+    "IMAGE_BOSSHP": "./screenshots/Default/bosshp.png",
     "IMAGE_EMPTY_SUSHI": "./screenshots/Default/emptyshshi.png",
     "IMAGE_EMPTY_SUSHI_CLOSE": "./screenshots/Default/emptyshshi_close.png"
   },
@@ -70,7 +71,8 @@
     "IMAGE_REALM_GUILD_PATH": "./screenshots/RealmRaid/guildcn.png",
     "IMAGE_REALM_CANCEL": "./screenshots/RealmRaid/cancelcn.png",
     "IMAGE_REALM_CANCEL_BATTLE": "./screenshots/RealmRaid/cancelcn.png",
-    "IMAGE_BUFF": "./screenshots/Default/buffcn.png"
+    "IMAGE_BUFF": "./screenshots/Default/buffcn.png",
+    "IMAGE_BOSSMARK": "./screenshots/MultiServ/bossmarkcn.png"
   },
   "GB": {
     "IMAGE_READY_PATH": "./screenshots/MultiServ/ready.png",
@@ -93,7 +95,8 @@
     "IMAGE_REALM_GUILD_PATH": "./screenshots/RealmRaid/guild.png",
     "IMAGE_REALM_CANCEL": "./screenshots/RealmRaid/cancel.png",
     "IMAGE_REALM_CANCEL_BATTLE": "./screenshots/RealmRaid/cancelbattle.png",
-    "IMAGE_BUFF": "./screenshots/Default/buff.png"
+    "IMAGE_BUFF": "./screenshots/Default/buff.png",
+    "IMAGE_BOSSMARK": "./screenshots/MultiServ/bossmark.png"
   },
   "JP": {
     "IMAGE_READY_PATH": "./screenshots/MultiServ/readyjp.png",
@@ -116,7 +119,8 @@
     "IMAGE_REALM_GUILD_PATH": "./screenshots/RealmRaid/guildjp.png",
     "IMAGE_REALM_CANCEL": "./screenshots/RealmRaid/canceljp.png",
     "IMAGE_REALM_CANCEL_BATTLE": "./screenshots/RealmRaid/cancelbattlejp.png",
-    "IMAGE_BUFF": "./screenshots/Default/buff.png"
+    "IMAGE_BUFF": "./screenshots/Default/buff.png",
+    "IMAGE_BOSSMARK": "./screenshots/MultiServ/bossmarkjp.png"
   },
   "REALM": {
     "IMAGE_REALM_FN3R_PATH": "./screenshots/RealmRaid/finished3Realm.png",
