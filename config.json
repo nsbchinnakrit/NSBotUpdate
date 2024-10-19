@@ -2,13 +2,14 @@
   "VALUE": {
     "FIND_IMG_DELAY": 0.01,
     "WQ_JADE": true,
-    "WQ_COIN": false,
-    "WQ_SUSHI": false,
-    "WQ_FOOD": false
+    "WQ_COIN": true,
+    "WQ_SUSHI": true,
+    "WQ_FOOD": true
   },
   "DEFAULT": {
     "IMAGE_FINISHED0_PATH": "./screenshots/Default/finished0.png",
     "IMAGE_FINISHED1_PATH": "./screenshots/Default/finished1.png",
+    "IMAGE_FINISHED1S1_PATH": "./screenshots/Default/finished1_1.png",
     "IMAGE_FINISHED1S2_PATH": "./screenshots/Default/finished1_2.png",
     "IMAGE_FINISHED1S3_PATH": "./screenshots/Default/finished1_3.png",
     "IMAGE_FINISHED2_PATH": "./screenshots/Default/finished2.png",
