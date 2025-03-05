@@ -1,0 +1,15 @@
+[11:42:51] DEBUG [runprocess | 71]: GameMode:[RealmRaidW3F3], Server:[GB], Total Round:[30]
+[11:42:51] INFO [RealmRaidW3F3 | 316]: 
+
+==================Starting a new round==================
+[11:42:52] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.9762788414955139, pos:[1071, 118]
+[11:42:52] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9400785565376282, pos:[397, 157]
+[11:42:52] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.9762788414955139, pos:[1071, 118]
+[11:42:53] INFO [RealmRaidW3F3 | 153]: Click Enemy Section..
+[11:42:55] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9999446868896484, pos:[342, 348]
+[11:42:56] DEBUG [RealmRaidW3F3 | 161]: Click Attack Button
+[11:42:56] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.975028395652771, pos:[1071, 118]
+[11:42:56] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/section.png, value:0.9348576068878174, pos:[692, 277]
+[11:42:56] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/atk.png, value:0.9999266862869263, pos:[342, 348]
+[11:42:56] DEBUG [GameControl | 584]: Found:./screenshots/RealmRaid/close.png, value:0.975028395652771, pos:[1071, 118]
+[11:42:57] INFO [RealmRaidW3F3 | 153]: Click Enemy Section..
