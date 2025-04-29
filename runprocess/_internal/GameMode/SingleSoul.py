@@ -110,11 +110,11 @@ class SingleSoul(threading.Thread):
                 subprocess.Popen(args)
                 sys.exit()
 
-            # gameready=self.__gui.find_game_img(self.__gui.templates['IMAGE_READY_PATH'], part=1, pos1=(_displayChat+951, 454), pos2=(_displayChat+1106, 607))
-            # if gameready != False:
-            #     self.__gui.mouse_click_bg(gameready)
-            #     time.sleep(1)
-            #     continue
+            gameready=self.__gui.find_game_img(self.__gui.templates['IMAGE_READY_PATH'], part=1, pos1=(_displayChat+951, 454), pos2=(_displayChat+1106, 607))
+            if gameready != False:
+                self.__gui.mouse_click_bg(gameready)
+                time.sleep(1)
+                continue
             
             #Fail
             position=self.__gui.find_game_img(self.__gui.templates['IMAGE_FAILED_PATH'], part=1, pos1=(_displayChat+368, 153), pos2=(_displayChat+423, 204))
@@ -133,7 +133,7 @@ class SingleSoul(threading.Thread):
                     self.__gui.mouse_click_bg((_displayChat+CLICK_SOULMAX[0], CLICK_SOULMAX[1]))
 
              #check finish
-            if (self.__gui.find_game_img(self.__gui.templates['IMAGE_FINISHED2_PATH'], part=1, pos1=(_displayChat+513, 444), pos2=(_displayChat+559, 477)) or self.__gui.find_game_img(self.__gui.templates['IMAGE_FINISHED1_PATH'], part=1, pos1=(_displayChat+395, 137), pos2=(_displayChat+459, 192)) or self.__gui.find_game_img(self.__gui.templates['IMAGE_FINISHED1S2_PATH'], part=1, pos1=(_displayChat+30, 30), pos2=(_displayChat+95, 95))) != False:
+            if (self.__gui.find_game_img(self.__gui.templates['IMAGE_FINISHED2_PATH'], part=1, pos1=(_displayChat+513, 444), pos2=(_displayChat+559, 477)) or self.__gui.find_game_img(self.__gui.templates['IMAGE_FINISHED1_PATH'], part=1, pos1=(_displayChat+395, 10), pos2=(_displayChat+459, 192)) or self.__gui.find_game_img(self.__gui.templates['IMAGE_FINISHED1S2_PATH'], part=1, pos1=(_displayChat+30, 30), pos2=(_displayChat+95, 95))) != False:
                 logging.info("Battle End, Victory!")
                 cantattk=0
                 _idlecount=0
