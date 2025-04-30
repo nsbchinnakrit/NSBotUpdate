@@ -2,10 +2,10 @@
   "VALUE": {
     "FIND_IMG_DELAY": 0.04,
     "WQ_JADE": true,
-    "WQ_COIN": false,
-    "WQ_SUSHI": false,
+    "WQ_COIN": true,
+    "WQ_SUSHI": true,
     "WQ_FOOD": true,
-    "LOG_LV": "INFO"
+    "LOG_LV": "DEBUG"
   },
   "DEFAULT": {
     "IMAGE_FINISHED0_PATH": "./Image/Default/finished0.png",

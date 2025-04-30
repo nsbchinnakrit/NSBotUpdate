@@ -115,7 +115,7 @@ class Event(threading.Thread):
             #     time.sleep(1)
             #     continue
 
-            if cantattk >= 5 or (self.__gui.find_game_img(self.__gui.templates["IMAGE_REALM_CANCEL"], part=1, pos1=(_displayChat+363, 340)) != False):
+            if cantattk >= 5 or (self.__gui.find_game_img(self.__gui.templates["IMAGE_REALM_CANCEL"], part=1, pos1=(_displayChat+363, 340), pos2=(_displayChat+575, 420)) != False):
                 logging.info("Unable to process, Exit!")
                 total = str(self.__total)
                 self.create_file(data=total)
