@@ -1,53 +1,88 @@
-import logging, time, os
+import logging
+import os
+import sys
+import time
 
-class MyLog():
+
+class MyLog:
+    """Utility logger with file‑rotation and concise console output."""
     plogger = logging.getLogger('Passenger')
     dlogger = logging.getLogger('Driver')
-    mlogger = logging.getLogger()
+    mlogger = logging.getLogger()          # root
 
     @staticmethod
-    def init(loglv='DEBUG'):
-        setloglv = None
-        
-        if loglv == 'DEBUG':
-            setloglv = logging.DEBUG
-        else:
-            setloglv = logging.INFO
-            
-        if loglv != 'OFF':
-            if not os.path.exists('logs'):
-                os.makedirs('logs')
+    def init(loglv: str = 'DEBUG'):
+        # ---- early exit ----
+        if loglv.upper() == 'OFF':
+            return
 
-            log_filename = f'./logs/log.txt'
-            if not os.path.exists(log_filename):
-                with open(log_filename, "w") as file:
-                    file.close
+        setloglv = logging.DEBUG if loglv.upper() == 'DEBUG' else logging.INFO
 
+        # ---- log directory ----
+        log_dir = 'logs'
+        os.makedirs(log_dir, exist_ok=True)
+
+        # ---- keep at most 10 files ----
+        log_files = sorted(
+            (f for f in os.listdir(log_dir) if f.startswith('log_') and f.endswith('.txt')),
+            key=lambda f: os.path.getctime(os.path.join(log_dir, f))
+        )
+        if len(log_files) >= 10:
+            os.remove(os.path.join(log_dir, log_files[0]))
+
+        # ---- choose filename: log_YYYYMMDD_HHmmss[_instX].txt ----
+        stamp = time.strftime('%Y%m%d_%H%M%S')
+        index = 0
+        while True:
+            suffix = "" if index == 0 else f"_inst{index}"
+            log_filename = os.path.join(log_dir, f"log_{stamp}{suffix}.txt")
             try:
-                os.rename(log_filename, log_filename)
-            except IOError:
-                instance_num = 0
-                log_filename = f'./logs/log_inst{instance_num}.txt'
-                try:
-                    os.rename(log_filename, log_filename)
-                except IOError:
-                    instance_num += 1
-                    log_filename = f'./logs/log_inst{instance_num}.txt'
-            
-            logging.basicConfig(level=setloglv,
-                                format='%(asctime)s %(levelname)-3s [%(module)-0s | %(lineno)d]: %(message)s',
-                                datefmt='[%H:%M:%S]',
-                                filename=log_filename,
-                                filemode='w')
+                with open(log_filename, 'x'):
+                    pass
+                break
+            except FileExistsError:
+                index += 1
 
-            #################################################################################################
-            console = logging.StreamHandler()
-            console.setLevel(setloglv)
-            formatter = logging.Formatter(
-                '%(asctime)s %(levelname)-3s [%(module)-0s | %(lineno)d]: %(message)s',
-                datefmt='[%H:%M:%S]',)
-            console.setFormatter(formatter)
-            MyLog.mlogger.addHandler(console)
-            logger = logging.getLogger('MyLogger')
-            logger.addHandler(console)
-            #################################################################################################
+        # ---- formatters ----
+        file_fmt = logging.Formatter(
+            '%(asctime)s %(levelname)-3s [%(module)s | %(lineno)d]: %(message)s',
+            datefmt='[%H:%M:%S]'
+        )
+
+        class AbbrevFormatter(logging.Formatter):
+            def format(self, record):
+                abbrev = ''.join(ch for ch in record.module if ch.isupper())
+                record.abbrev_module = abbrev or record.module[:2].upper()
+                return super().format(record)
+
+        console_fmt = AbbrevFormatter(
+            # '%(asctime)s %(levelname)-3s [%(abbrev_module)s]: %(message)s',
+            '%(asctime)s %(levelname)-3s : %(message)s',
+            datefmt='[%H:%M:%S]'
+        )
+
+        # ---- root logger ----
+        root = MyLog.mlogger
+        root.setLevel(setloglv)
+        root.handlers.clear()  # fresh start every init
+
+        # file handler
+        fh = logging.FileHandler(log_filename, mode='w')
+        fh.setLevel(setloglv)
+        fh.setFormatter(file_fmt)
+        root.addHandler(fh)
+
+        # stdout handler (DEBUG/INFO)
+        out_hdl = logging.StreamHandler(sys.stdout)
+        out_hdl.setLevel(setloglv)
+        out_hdl.addFilter(lambda r: r.levelno < logging.WARNING)
+        out_hdl.setFormatter(console_fmt)
+        root.addHandler(out_hdl)
+
+        # stderr handler (WARNING+)
+        err_hdl = logging.StreamHandler(sys.stderr)
+        err_hdl.setLevel(logging.WARNING)
+        err_hdl.setFormatter(console_fmt)
+        root.addHandler(err_hdl)
+
+        root.propagate = False

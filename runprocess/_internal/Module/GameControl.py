@@ -56,9 +56,9 @@ class GameControl:
         # กำหนดชื่อรูปที่ไม่ต้อง log
         self.exclude_log_templates = {
             # "IMAGE_BACK2",
-            "IMAGE_REALM_COOLDOWN",
-            # "IMAGE_REALM_3RAID_PATH",
-            'IMAGE_INBATTLE',
+            # "IMAGE_REALM_COOLDOWN",
+            # "IMAGE_REALM_3RAID",
+            # 'IMAGE_INBATTLE',
         }
     
     def load_templates(self, paths, gray=1):
@@ -314,7 +314,7 @@ class GameControl:
             return 0, 0
 
 
-    def find_game_img(self, img_template, part=0, pos1=None, pos2=None, gray=None, center=True, delay=0.04, threshold=0.9, label=None):
+    def find_game_img(self, img_template, part=0, pos1=None, pos2=None, gray=None, center=True, delay=0.03, threshold=0.9, label=None):
         '''
         Find game image using preloaded numpy template
         '''
@@ -351,7 +351,8 @@ class GameControl:
                 )
 
                 logging.debug(
-                    f'Detected \"{label}\" with value: %.4f, pos: {maxLoc}, match_area=({top_left}, {bottom_right}) (%.2f ms)',
+                    # f'Detected \"{label}\" with value: %.4f, pos: {maxLoc}, match_area=({top_left}, {bottom_right}) (%.2f ms)',
+                    f'F.: \"{label}\" value: %.4f, (%.2f ms)',
                     maxVal, elapsed
                 )
             return list(maxLoc)
@@ -359,7 +360,7 @@ class GameControl:
         return False
 
     
-    def find_game_img_count(self, img_template, part=0, pos1=None, pos2=None, gray=1, delay=0.0, threshold=0.9, label=None):
+    def find_game_img_count(self, img_template, part=0, pos1=None, pos2=None, gray=1, delay=0.03, threshold=0.9, label=None):
         '''
         Return count of matched images (grouped to avoid duplicates)
         '''
@@ -417,7 +418,7 @@ class GameControl:
         else:
             key = win32con.WM_KEYUP
         if self.client == 0:
-            logging.info('Press "ESC"')
+            logging.debug('Press "ESC"')
             win32api.PostMessage(self.hwnd, key, win32con.VK_ESCAPE, 0)
         if self.client == 1:
             os.system('adb shell input keyevent 4')
