@@ -1,0 +1,6 @@
+[14:27:19] DEBUG [runprocess | 145]: HWID: [1577966], GameMode: [Event], Server: [GB], Total Rounds: [300]
+[14:27:19] INFO [GameControl | 92]: Event template loaded (GRAY): 24 templates
+[14:27:19] INFO [GameControl | 92]: Event template loaded (COLOR): 0 templates
+[14:27:19] INFO [Event | 163]: 
+
+==================Starting a new round==================

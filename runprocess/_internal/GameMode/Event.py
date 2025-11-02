@@ -104,6 +104,7 @@ class Event(threading.Thread):
                 logging.info('Start Challenge!')
                 self.__gui.mouse_click_bg((position[0]+276, position[1]+0))
                 self.game_utils.reset_idle_count()
+                time.sleep(0.5)
                 continue
 
             if _cAttackRealm >= 12:

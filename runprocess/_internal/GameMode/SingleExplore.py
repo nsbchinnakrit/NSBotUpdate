@@ -42,8 +42,8 @@ class SingleExplore(threading.Thread):
             "IMAGE_STORY_CHERRY_CAKE": config['EXPLORE']['IMAGE_STORY_CHERRY_CAKE'],
             "IMAGE_STORY_LIST_CHAPTER": config['EXPLORE']['IMAGE_STORY_LIST_CHAPTER'],
             "IMAGE_STORY_FIGHT": config['EXPLORE']['IMAGE_STORY_FIGHT'],
-            "IMAGE_STORY_FIGHT_BOSS": config['EXPLORE']['IMAGE_STORY_FIGHT_BOSS'],
-            "IMAGE_STORY_GET_REWARD": config['EXPLORE']['IMAGE_STORY_GET_REWARD'],
+            "IMAGE_STORY_FIGHT_BOSS": config[self.__sv]['IMAGE_STORY_FIGHT_BOSS'],
+            "IMAGE_STORY_GET_REWARD": config[self.__sv]['IMAGE_STORY_GET_REWARD'],
 
             # DEFAULT
             "IMAGE_EMPTY_SUSHI": config['DEFAULT']['IMAGE_EMPTY_SUSHI'],

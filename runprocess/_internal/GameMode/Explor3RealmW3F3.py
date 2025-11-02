@@ -48,10 +48,10 @@ class Explor3RealmW3F3(threading.Thread):
             # EXPLORE
             "IMAGE_STORY_BOX": config['EXPLORE']['IMAGE_STORY_BOX'],
             "IMAGE_STORY_FIGHT": config['EXPLORE']['IMAGE_STORY_FIGHT'],
-            "IMAGE_STORY_FIGHT_BOSS": config['EXPLORE']['IMAGE_STORY_FIGHT_BOSS'],
+            "IMAGE_STORY_FIGHT_BOSS": config[self.__sv]['IMAGE_STORY_FIGHT_BOSS'],
             "IMAGE_STORY_CHERRY_CAKE": config['EXPLORE']['IMAGE_STORY_CHERRY_CAKE'],
             "IMAGE_STORY_LIST_CHAPTER": config['EXPLORE']['IMAGE_STORY_LIST_CHAPTER'],
-            "IMAGE_STORY_GET_REWARD": config['EXPLORE']['IMAGE_STORY_GET_REWARD'],
+            "IMAGE_STORY_GET_REWARD": config[self.__sv]['IMAGE_STORY_GET_REWARD'],
             "IMAGE_STORY_BACK": config['EXPLORE']['IMAGE_STORY_BACK'],
             "IMAGE_STORY_AUTOFOOD": config[self.__sv]['IMAGE_STORY_AUTOFOOD'],
             "IMAGE_STORY_START": config[self.__sv]['IMAGE_STORY_START'],

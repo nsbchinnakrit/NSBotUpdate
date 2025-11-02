@@ -2,10 +2,10 @@
   "VALUE": {
     "LOG_LV": "DEBUG",
     "FIND_IMG_DELAY": 0.04,
-    "WQ_JADE": false,
-    "WQ_COIN": false,
-    "WQ_SUSHI": false,
-    "WQ_FOOD": false,
+    "WQ_JADE": true,
+    "WQ_COIN": true,
+    "WQ_SUSHI": true,
+    "WQ_FOOD": true,
     "IDLE_TIMEOUT_MINUTES": 15
   },
   "DEFAULT": {
@@ -45,9 +45,7 @@
   "EXPLORE": {
     "IMAGE_STORY_ACCEPT": "./Image/Story/accept.png",
     "IMAGE_STORY_FIGHT": "./Image/Story/fight.png",
-    "IMAGE_STORY_FIGHT_BOSS": "./Image/Story/fightBoss.png",
     "IMAGE_STORY_BACK": "./Image/Story/back.png",
-    "IMAGE_STORY_GET_REWARD": "./Image/Story/getReward.png",
     "IMAGE_STORY_CHERRY_CAKE": "./Image/Story/cherryCake.png",
     "IMAGE_STORY_LIST_CHAPTER": "./Image/Story/listchapter.png",
     "IMAGE_STORY_BOX": "./Image/Story/box.png",
@@ -79,7 +77,9 @@
     "IMAGE_REALM_GRAIDCOUNT": "./Image/RealmRaid/guildraidcountcn.png",
     "IMAGE_REALM_COOLDOWN": "./Image/RealmRaid/raidcdcn.png",
     "IMAGE_REALM_EMPTY_TICKET2": "./Image/RealmRaid/empty2cn.png",
-    "IMAGE_INBATTLE": "./Image/Default/inbattlecn.png"
+    "IMAGE_INBATTLE": "./Image/Default/inbattlecn.png",
+    "IMAGE_STORY_GET_REWARD": "./Image/Story/getRewardCN.png",
+    "IMAGE_STORY_FIGHT_BOSS": "./Image/Story/fightBossCN.png"
   },
   "GB": {
     "IMAGE_READY": "./Image/MultiServ/ready.png",
@@ -107,7 +107,9 @@
     "IMAGE_REALM_GRAIDCOUNT": "./Image/RealmRaid/guildraidcount.png",
     "IMAGE_REALM_COOLDOWN": "./Image/RealmRaid/raidcd.png",
     "IMAGE_REALM_EMPTY_TICKET2": "./Image/RealmRaid/empty2.png",
-    "IMAGE_INBATTLE": "./Image/Default/inbattle.png"
+    "IMAGE_INBATTLE": "./Image/Default/inbattle.png",
+    "IMAGE_STORY_GET_REWARD": "./Image/Story/getReward.png",
+    "IMAGE_STORY_FIGHT_BOSS": "./Image/Story/fightBoss.png"
   },
   "JP": {
     "IMAGE_READY": "./Image/MultiServ/readyjp.png",
@@ -135,7 +137,9 @@
     "IMAGE_REALM_GRAIDCOUNT": "./Image/RealmRaid/guildraidcount.png",
     "IMAGE_REALM_COOLDOWN": "./Image/RealmRaid/raidcdjp.png",
     "IMAGE_REALM_EMPTY_TICKET2": "./Image/RealmRaid/empty2jp.png",
-    "IMAGE_INBATTLE": "./Image/Default/inbattlejp.png"
+    "IMAGE_INBATTLE": "./Image/Default/inbattlejp.png",
+    "IMAGE_STORY_GET_REWARD": "./Image/Story/getReward.png",
+    "IMAGE_STORY_FIGHT_BOSS": "./Image/Story/fightBoss.png"
   },
   "REALM": {
     "IMAGE_REALM_FN3R": "./Image/RealmRaid/finished3Realm.png",
