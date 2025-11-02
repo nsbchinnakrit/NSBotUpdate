@@ -1,5 +1,5 @@
 {
-  "version": "1.4.2",
+  "version": "1.4.2.1",
   "eventtext": "Event",
   "roundoption": "keep",
   "theme": "system",
@@ -8,6 +8,6 @@
   "snowball": false,
   "azure": false,
   "kuro": true,
-  "changelog": "NSBot 1.4.2 (2 พฤศจิกายน 2025)\n※ แก้ไขปัญหาบอทไม่สามารถโจมตี Boss ในโหมด Explore ในเซิร์ฟเวอร์จีน\n※ แก้ไขจำนวนรอบเริ่มต้น ของบาง Game Mode\nNSBot 1.4.1 (1 ตุลาคม 2025)\n※ แก้บัคโหมด Event นอกนั้นจำไม่ได้ละ ว่าแก้ไร\nNSBot 1.4.0 (28 เมษายน 2025)\n※ ปรับปรุงประสิทธิภาพโค้ดฝั่ง AutoClick บางส่วน ให้กิน CPU น้อยลง\n※ [UI] นำการตั้งค่า Find IMG Delay ออก\n※ [UI] เพิ่มการตั้งค่า Log Level (สำหรับกรณีเจอ BUG)",
+  "changelog": "NSBot 1.4.2.1(HotFix) (2 พฤศจิกายน 2025)\n※ แก้ไข Error เมื่อตีเขตจบ ในโหมด Explore/Realm แบบ Win3, Fail3\nNSBot 1.4.2 (2 พฤศจิกายน 2025)\n※ แก้ไขปัญหาบอทไม่สามารถโจมตี Boss ในโหมด Explore ในเซิร์ฟเวอร์จีน\n※ แก้ไขจำนวนรอบเริ่มต้น ของบาง Game Mode\nNSBot 1.4.1 (1 ตุลาคม 2025)\n※ แก้บัคโหมด Event\nNSBot 1.4.0 (28 เมษายน 2025)\n※ ปรับปรุงประสิทธิภาพโค้ดฝั่ง AutoClick บางส่วน ให้กิน CPU น้อยลง\n※ [UI] นำการตั้งค่า Find IMG Delay ออก\n※ [UI] เพิ่มการตั้งค่า Log Level (สำหรับกรณีเจอ BUG)",
   "notify": true
 }

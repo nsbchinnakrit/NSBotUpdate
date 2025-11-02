@@ -432,7 +432,7 @@ class Explor3RealmW3F3(threading.Thread):
                 self.game_utils.reset_idle_count()
     
     def gameModeRealmRaid(self):
-        global _cAttackRealm, _displayChat, _is3Realm, _isFail, _exit, _firstcheck
+        global _cAttackRealm, _displayChat, _is3Realm, _isFail, _exit, _firstcheck, count
         while True:
             INBATTLE=self.__gui.find_game_img(self.__gui.templates['IMAGE_INBATTLE'],part=1, pos1=(_displayChat+196, 600), pos2=(_displayChat+277, 640))
             COOP_QUEST = self.__gui.find_game_img(self.__gui.templates['IMAGE_COOP2_SEAL'], part=1, pos1=(_displayChat+455, 135), pos2=(_displayChat+495, 175))
