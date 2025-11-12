@@ -8,6 +8,6 @@
   "snowball": true,
   "azure": true,
   "kuro": true,
-  "changelog": "NSBot 1.4.3 (12 พฤศจิกายน 2025)\n※ แก้ไข Error เมื่อรับบทอทจอที่ 2 ครบ 10 ครั้ง แล้วรันบอทต่อไม่ได้\n※ แก้ไขโหมด Event ที่ไม่สามารถเริ่ม Challenge ในบางหมวดได้\n※ ทดลองเพิ่มให้รองรับ Battle Theme [Golden Terrace] และ [Clouded Peaks]",
+  "changelog": "NSBot 1.4.3 (12 พฤศจิกายน 2025)\n※ แก้ไข Error เมื่อรันทอทจอที่ 2 ขึ้นไป ครบ 10 ครั้ง แล้วรันบอทต่อไม่ได้\n※ แก้ไขโหมด Event ที่ไม่สามารถเริ่ม Challenge ในบางหมวดได้\n※ ทดลองเพิ่มให้รองรับ Battle Theme [Golden Terrace] และ [Clouded Peaks]",
   "notify": true
 }
