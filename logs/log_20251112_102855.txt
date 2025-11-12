@@ -1,0 +1,71 @@
+[10:28:55] DEBUG [runprocess | 145]: HWID: [1183940], GameMode: [RealmRaidW3F3], Server: [GB], Total Rounds: [30]
+[10:28:56] INFO [GameControl | 92]: Event template loaded (GRAY): 39 templates
+[10:28:56] INFO [GameControl | 92]: Event template loaded (COLOR): 0 templates
+[10:28:56] INFO [RealmRaidW3F3 | 390]: 
+
+==================Starting a new round==================
+[10:28:56] DEBUG [GameControl | 391]: Counted 0 unique matches for "IMAGE_REALM_RAID_FAILED" with threshold 0.9
+[10:28:56] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_RAID" value: 0.9880, (32.20 ms)
+[10:28:56] INFO [RealmRaidW3F3 | 152]: Enter Realm Raid!
+[10:28:57] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (31.01 ms)
+[10:28:57] DEBUG [GameControl | 391]: Counted 0 unique matches for "IMAGE_REALM_RAID_FAILED" with threshold 0.9
+[10:28:58] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_3RAID" value: 0.9918, (30.98 ms)
+[10:28:58] DEBUG [RealmRaidW3F3 | 171]: set 3Realm raid state = True
+[10:29:03] DEBUG [GameControl | 391]: Counted 0 unique matches for "IMAGE_REALM_RAID_FAILED" with threshold 0.9
+[10:29:04] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_RAID" value: 0.9880, (32.96 ms)
+[10:29:04] INFO [RealmRaidW3F3 | 152]: Enter Realm Raid!
+[10:29:05] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (31.02 ms)
+[10:29:05] DEBUG [GameControl | 391]: Counted 0 unique matches for "IMAGE_REALM_RAID_FAILED" with threshold 0.9
+[10:29:05] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_SECTION2" value: 0.9998, (36.57 ms)
+[10:29:05] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_REFRESH" value: 1.0000, (31.33 ms)
+[10:29:05] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (30.96 ms)
+[10:29:06] DEBUG [RealmRaidW3F3 | 199]: _isFail : 0
+[10:29:06] INFO [RealmRaidW3F3 | 202]: Attack Realm!
+[10:29:07] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_ATK" value: 0.9999, (35.08 ms)
+[10:29:07] DEBUG [RealmRaidW3F3 | 208]: Click Attack Button
+[10:29:11] DEBUG [GameControl | 353]: F.: "IMAGE_INBATTLE" value: 0.9901, (42.17 ms)
+[10:29:11] DEBUG [GameControl | 421]: Press "ESC"
+[10:29:13] DEBUG [GameControl | 391]: Counted 0 unique matches for "IMAGE_REALM_RAID_FAILED" with threshold 0.9
+[10:29:14] DEBUG [GameControl | 353]: F.: "IMAGE_FAILED" value: 0.9294, (32.42 ms)
+[10:29:14] INFO [RealmRaidW3F3 | 282]: Battle End, Fail..
+[10:29:15] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (30.94 ms)
+[10:29:17] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (31.52 ms)
+[10:29:17] DEBUG [GameControl | 391]: Counted 1 unique matches for "IMAGE_REALM_RAID_FAILED" with threshold 0.9
+[10:29:17] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_SECTION2" value: 0.9998, (37.46 ms)
+[10:29:17] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_REFRESH" value: 1.0000, (31.99 ms)
+[10:29:17] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (33.92 ms)
+[10:29:18] DEBUG [RealmRaidW3F3 | 199]: _isFail : 0
+[10:29:18] INFO [RealmRaidW3F3 | 202]: Attack Realm!
+[10:29:19] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_ATK" value: 0.9999, (36.17 ms)
+[10:29:19] DEBUG [RealmRaidW3F3 | 208]: Click Attack Button
+[10:29:23] DEBUG [GameControl | 353]: F.: "IMAGE_INBATTLE" value: 0.9901, (43.31 ms)
+[10:29:23] DEBUG [GameControl | 421]: Press "ESC"
+[10:29:25] DEBUG [GameControl | 391]: Counted 0 unique matches for "IMAGE_REALM_RAID_FAILED" with threshold 0.9
+[10:29:25] DEBUG [GameControl | 353]: F.: "IMAGE_FAILED" value: 0.9294, (31.64 ms)
+[10:29:25] INFO [RealmRaidW3F3 | 282]: Battle End, Fail..
+[10:29:27] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (31.26 ms)
+[10:29:28] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (31.30 ms)
+[10:29:29] DEBUG [GameControl | 391]: Counted 2 unique matches for "IMAGE_REALM_RAID_FAILED" with threshold 0.9
+[10:29:29] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_SECTION2" value: 0.9998, (39.14 ms)
+[10:29:29] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_REFRESH" value: 1.0000, (31.98 ms)
+[10:29:29] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (31.11 ms)
+[10:29:30] DEBUG [RealmRaidW3F3 | 199]: _isFail : 0
+[10:29:30] INFO [RealmRaidW3F3 | 202]: Attack Realm!
+[10:29:31] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_ATK" value: 1.0000, (36.72 ms)
+[10:29:31] DEBUG [RealmRaidW3F3 | 208]: Click Attack Button
+[10:29:35] DEBUG [GameControl | 353]: F.: "IMAGE_INBATTLE" value: 0.9901, (44.19 ms)
+[10:29:35] DEBUG [GameControl | 421]: Press "ESC"
+[10:29:37] DEBUG [GameControl | 391]: Counted 0 unique matches for "IMAGE_REALM_RAID_FAILED" with threshold 0.9
+[10:29:37] DEBUG [GameControl | 353]: F.: "IMAGE_FAILED" value: 0.9294, (31.36 ms)
+[10:29:37] INFO [RealmRaidW3F3 | 282]: Battle End, Fail..
+[10:29:39] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (32.08 ms)
+[10:29:40] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (32.65 ms)
+[10:29:40] DEBUG [GameControl | 391]: Counted 3 unique matches for "IMAGE_REALM_RAID_FAILED" with threshold 0.9
+[10:29:40] DEBUG [RealmRaidW3F3 | 130]: set "_isFail = 3"
+[10:29:40] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_SECTION2" value: 0.9962, (37.82 ms)
+[10:29:41] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_REFRESH" value: 1.0000, (31.49 ms)
+[10:29:41] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CLOSE" value: 0.9971, (31.57 ms)
+[10:29:41] INFO [RealmRaidW3F3 | 186]: Refresh Realm Raid Page!
+[10:29:42] DEBUG [GameControl | 353]: F.: "IMAGE_REALM_CANCEL" value: 0.9999, (31.32 ms)
+[10:29:42] DEBUG [RealmRaidW3F3 | 192]: set 3Realm raid state = False
+[10:29:44] INFO [RealmRaidW3F3 | 232]: Attack Realm!

@@ -2,10 +2,10 @@
   "VALUE": {
     "LOG_LV": "DEBUG",
     "FIND_IMG_DELAY": 0.04,
-    "WQ_JADE": true,
-    "WQ_COIN": true,
-    "WQ_SUSHI": true,
-    "WQ_FOOD": true,
+    "WQ_JADE": false,
+    "WQ_COIN": false,
+    "WQ_SUSHI": false,
+    "WQ_FOOD": false,
     "IDLE_TIMEOUT_MINUTES": 15
   },
   "DEFAULT": {
@@ -15,6 +15,7 @@
     "IMAGE_FINISHED1S2": "./Image/Default/finished1_2.png",
     "IMAGE_FINISHED1S3": "./Image/Default/finished1_3.png",
     "IMAGE_FINISHED2": "./Image/Default/finished2.png",
+    "IMAGE_FINISHED_CP": "./Image/Default/finished_cloudedpeaks.png",
     "IMAGE_FAILED": "./Image/Default/failed.png",
     "IMAGE_BUFFCN": "./Image/Default/buffcn.png",
     "IMAGE_BUFF": "./Image/Default/buff.png",
@@ -108,8 +109,8 @@
     "IMAGE_REALM_COOLDOWN": "./Image/RealmRaid/raidcd.png",
     "IMAGE_REALM_EMPTY_TICKET2": "./Image/RealmRaid/empty2.png",
     "IMAGE_INBATTLE": "./Image/Default/inbattle.png",
-    "IMAGE_STORY_GET_REWARD": "./Image/Story/getReward.png",
-    "IMAGE_STORY_FIGHT_BOSS": "./Image/Story/fightBoss.png"
+    "IMAGE_STORY_GET_REWARD": "./Image/Story/getRewardCN.png",
+    "IMAGE_STORY_FIGHT_BOSS": "./Image/Story/fightBossCN.png"
   },
   "JP": {
     "IMAGE_READY": "./Image/MultiServ/readyjp.png",
@@ -168,7 +169,9 @@
     "IMAGE_EVENT_END": "./Image/Event/evend.png",
     "IMAGE_EVENT_END2": "./Image/Event/evend2.png",
     "IMAGE_EVENT_LOCK": "./Image/Event/ev_lineup_lock.png",
+    "IMAGE_EVENT_LOCK2": "./Image/Event/ev_lineup_lock2.png",
     "IMAGE_EVENT_LOCKED": "./Image/Event/ev_lineup_locked.png",
+    "IMAGE_EVENT_LOCKED2": "./Image/Event/ev_lineup_locked2.png",
     "IMAGE_EVENT_ATT": "./Image/Event/att.png",
     "IMAGE_EVENT_TARGET": "./Image/Event/target.png",
     "IMAGE_EVENT_TARGET2": "./Image/Event/target2.png",

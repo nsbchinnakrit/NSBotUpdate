@@ -23,12 +23,37 @@ class MyLog:
         os.makedirs(log_dir, exist_ok=True)
 
         # ---- keep at most 10 files ----
-        log_files = sorted(
-            (f for f in os.listdir(log_dir) if f.startswith('log_') and f.endswith('.txt')),
-            key=lambda f: os.path.getctime(os.path.join(log_dir, f))
-        )
-        if len(log_files) >= 10:
-            os.remove(os.path.join(log_dir, log_files[0]))
+        # log_files = sorted(
+        #     (f for f in os.listdir(log_dir) if f.startswith('log_') and f.endswith('.txt')),
+        #     key=lambda f: os.path.getctime(os.path.join(log_dir, f))
+        # )
+        # if len(log_files) >= 10:
+        #     os.remove(os.path.join(log_dir, log_files[0]))
+        try:
+            log_files = sorted(
+                (f for f in os.listdir(log_dir) if f.startswith('log_') and f.endswith('.txt')),
+                key=lambda f: os.path.getctime(os.path.join(log_dir, f))
+            )
+            
+            if len(log_files) >= 10:
+                file_to_remove = os.path.join(log_dir, log_files[0])
+                
+                #
+                # !!! นี่คือส่วนที่แก้ไข !!!
+                #
+                try:
+                    # พยายามลบไฟล์ที่เก่าที่สุด
+                    os.remove(file_to_remove)
+                    
+                except (PermissionError, OSError) as e:
+                    # ถ้าลบไม่ได้ (เพราะไฟล์ถูกใช้งานอยู่)
+                    # ให้ print แจ้งเตือนไปยัง stderr แล้วทำงานต่อ
+                    # (การลบไฟล์เก่าไม่สำเร็จ ไม่ควรทำให้โปรแกรมหลักหยุดทำงาน)
+                    print(f"MyLog Init Warning: Failed to remove old log file '{log_files[0]}'. File may be in use ({e}).", file=sys.stderr)
+                    
+        except Exception as e:
+            # ดักจับ Error อื่นๆ ที่อาจเกิดจากการ list/sort ไฟล์ (เช่น ไม่มีสิทธิ์อ่านโฟลเดอร์)
+            print(f"MyLog Init Warning: Failed to process old log files directory. ({e})", file=sys.stderr)
 
         # ---- choose filename: log_YYYYMMDD_HHmmss[_instX].txt ----
         stamp = time.strftime('%Y%m%d_%H%M%S')

@@ -443,7 +443,7 @@ class GameControl:
                 pos[0], pos_end[0]), random.randint(pos[1], pos_end[1]))
         if self.client == 0:
             # logging.debug("Click:%s" %str(pos_rand))
-            #win32gui.SendMessage(self.hwnd, win32con.BM_CLICK,300,300)
+            # win32gui.SendMessage(self.hwnd, win32con.BM_CLICK,300,300)
             win32gui.SendMessage(self.hwnd, win32con.WM_MOUSEMOVE,
                                  0, win32api.MAKELONG(pos_rand[0], pos_rand[1]))
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN,
