@@ -1,11 +1,11 @@
 {
   "VALUE": {
-    "LOG_LV": "INFO",
+    "LOG_LV": "DEBUG",
     "FIND_IMG_DELAY": 0.04,
-    "WQ_JADE": true,
-    "WQ_COIN": true,
-    "WQ_SUSHI": true,
-    "WQ_FOOD": true,
+    "WQ_JADE": false,
+    "WQ_COIN": false,
+    "WQ_SUSHI": false,
+    "WQ_FOOD": false,
     "IDLE_TIMEOUT_MINUTES": 15
   },
   "DEFAULT": {

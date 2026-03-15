@@ -43,7 +43,10 @@ class SingleExplore(threading.Thread):
             "IMAGE_STORY_LIST_CHAPTER": config['EXPLORE']['IMAGE_STORY_LIST_CHAPTER'],
             "IMAGE_STORY_FIGHT": config['EXPLORE']['IMAGE_STORY_FIGHT'],
             "IMAGE_STORY_FIGHT_BOSS": config[self.__sv]['IMAGE_STORY_FIGHT_BOSS'],
+            "IMAGE_STORY_FIGHT_BOSS_CN": config['CN']['IMAGE_STORY_FIGHT_BOSS'],
             "IMAGE_STORY_GET_REWARD": config[self.__sv]['IMAGE_STORY_GET_REWARD'],
+            "IMAGE_STORY_GET_REWARD_CN": config['CN']['IMAGE_STORY_GET_REWARD'],
+
 
             # DEFAULT
             "IMAGE_EMPTY_SUSHI": config['DEFAULT']['IMAGE_EMPTY_SUSHI'],
@@ -197,7 +200,8 @@ class SingleExplore(threading.Thread):
             position=self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_FIGHT'],part=1, pos1=(_displayChat+1, 200), pos2=(_displayChat+1136, 500))
             position2=self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_CHERRY_CAKE'],part=1, pos1=(_displayChat+584, 5), pos2=(_displayChat+649, 49))
             position3=self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_FIGHT_BOSS'],part=1, pos1=(_displayChat+1, 200), pos2=(_displayChat+1136, 500))
-            if position == False and position2 != False and position3 == False:
+            position4=self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_FIGHT_BOSS_CN'],part=1, pos1=(_displayChat+1, 200), pos2=(_displayChat+1136, 500))
+            if position == False and position2 != False and (position3 == False or position4 == False):
                 if (position == False) and (position3 == False):
                     self.__gui.mouse_drag_bg(SLIDE_STORY_COORDINATE[1],SLIDE_STORY_COORDINATE[0])
                     _localVariable.detectCount -= 1
@@ -206,7 +210,7 @@ class SingleExplore(threading.Thread):
                         self.__gui.mouse_drag_bg(SLIDE_STORY_COORDINATE[0],SLIDE_STORY_COORDINATE[1])
                         _localVariable.detectCount=30
 
-            position=self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_FIGHT_BOSS'],part=1, pos1=(_displayChat+1, 200), pos2=(_displayChat+1136, 500))
+            position=(self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_FIGHT_BOSS'],part=1, pos1=(_displayChat+1, 200), pos2=(_displayChat+1136, 500))) or (self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_FIGHT_BOSS_CN'],part=1, pos1=(_displayChat+1, 200), pos2=(_displayChat+1136, 500)))
             if position != False:
                 logging.info("BOSS Found! Start fighting..")
                 self.__gui.mouse_click_bg(position)
@@ -285,7 +289,7 @@ class SingleExplore(threading.Thread):
             #==========================================Reward settlement=============================================
             # if (self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_BACK'])!= False
             #     or self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_REWARD_CONFIRMED']) != False or self.__gui.find_game_img(IMAGE_STORY_REWARD_CONFIRMEDCN) != False):
-            position=self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_GET_REWARD'],part=1, pos1=(_displayChat+190, 310), pos2=(_displayChat+921, 561))
+            position=(self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_GET_REWARD'],part=1, pos1=(_displayChat+190, 310), pos2=(_displayChat+921, 561))) or (self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_GET_REWARD_CN'],part=1, pos1=(_displayChat+190, 310), pos2=(_displayChat+921, 561)))
             if position != False:
                 logging.info("Challenge finished. Exiting for next round.")
                 self.__gui.send_esc_down()

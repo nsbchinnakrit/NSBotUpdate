@@ -41,9 +41,11 @@ class Explor3Realm(threading.Thread):
             "IMAGE_STORY_BOX": config['EXPLORE']['IMAGE_STORY_BOX'],
             "IMAGE_STORY_FIGHT": config['EXPLORE']['IMAGE_STORY_FIGHT'],
             "IMAGE_STORY_FIGHT_BOSS": config[self.__sv]['IMAGE_STORY_FIGHT_BOSS'],
+            "IMAGE_STORY_FIGHT_BOSS_CN": config['CN']['IMAGE_STORY_FIGHT_BOSS'],
             "IMAGE_STORY_CHERRY_CAKE": config['EXPLORE']['IMAGE_STORY_CHERRY_CAKE'],
             "IMAGE_STORY_LIST_CHAPTER": config['EXPLORE']['IMAGE_STORY_LIST_CHAPTER'],
             "IMAGE_STORY_GET_REWARD": config[self.__sv]['IMAGE_STORY_GET_REWARD'],
+            "IMAGE_STORY_GET_REWARD_CN": config['CN']['IMAGE_STORY_GET_REWARD'],
             "IMAGE_STORY_BACK": config['EXPLORE']['IMAGE_STORY_BACK'],
             "IMAGE_STORY_AUTOFOOD": config[self.__sv]['IMAGE_STORY_AUTOFOOD'],
             "IMAGE_STORY_START": config[self.__sv]['IMAGE_STORY_START'],
@@ -338,7 +340,7 @@ class Explor3Realm(threading.Thread):
                         self.__gui.mouse_drag_bg(SLIDE_STORY_COORDINATE[0],SLIDE_STORY_COORDINATE[1])
                         _localVariable.detectCount=30
 
-            position=self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_FIGHT_BOSS'],part=1, pos1=(_displayChat+1, 200), pos2=(_displayChat+1136, 500))
+            position=(self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_FIGHT_BOSS'],part=1, pos1=(_displayChat+1, 200), pos2=(_displayChat+1136, 500))) or (self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_FIGHT_BOSS_CN'],part=1, pos1=(_displayChat+1, 200), pos2=(_displayChat+1136, 500)))
             if position3 != False:
                 logging.info("BOSS Found! Start fighting..")
                 self.__gui.mouse_click_bg(position3)
@@ -416,7 +418,7 @@ class Explor3Realm(threading.Thread):
                 break
 
             #==========================================Reward settlement=============================================
-            position=self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_GET_REWARD'],part=1, pos1=(_displayChat+190, 310), pos2=(_displayChat+921, 561))
+            position=(self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_GET_REWARD'],part=1, pos1=(_displayChat+190, 310), pos2=(_displayChat+921, 561))) or (self.__gui.find_game_img(self.__gui.templates['IMAGE_STORY_GET_REWARD_CN'],part=1, pos1=(_displayChat+190, 310), pos2=(_displayChat+921, 561)))
             if position != False:
                 logging.info("Challenge finished. Exiting for next round.")
                 self.__gui.send_esc_down()

@@ -12,7 +12,7 @@ _displayChat=0
 _cAttackRealm=0
 _idlecount=0
 CLICK_SOULMAX=(649, 389)
-START_SOUL_COORDINATE = (1075, 565)
+END_SOUL_COORDINATE = (1120, 630)
 
 class Soul(threading.Thread):
     def __init__(self,Server, windowName, beforetotal, total, pid, bondlingmode, pactsettings, crystal_use, tomb, snowball, azure, kuro):
@@ -175,7 +175,7 @@ class Soul(threading.Thread):
                     if self.__gui.find_game_img(self.__gui.templates['IMAGE_SOUL_PETREWARD'], part=1, pos1=(_displayChat+103, 197), pos2=(_displayChat+304, 282)):
                         logging.info("Claim Pet Reward.")
                         self.__gui.mouse_click_bg((_displayChat + 950, 450))
-                    self.__gui.mouse_click_bg(START_SOUL_COORDINATE)
+                    self.__gui.mouse_click_bg(END_SOUL_COORDINATE)
                 break
 
             position = self.__gui.find_game_img(self.__gui.templates['IMAGE_FAILED'], part=1, pos1=(_displayChat+368, 20), pos2=(_displayChat+423, 204))
