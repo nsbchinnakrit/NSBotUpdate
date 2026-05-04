@@ -1,5 +1,5 @@
 {
-  "version": "1.4.4.3",
+  "version": "1.4.4.4",
   "eventtext": "Event",
   "roundoption": "keep",
   "theme": "system",
@@ -8,6 +8,6 @@
   "snowball": true,
   "azure": true,
   "kuro": true,
-  "changelog": "NSBot 1.4.4 (15 มีนาคม 2026)\n※ แก้ไข Bug จากผลกระทบจากการปรับปรุง UI ใหม่ของเกม",
+  "changelog": "NSBot 1.4.4.4 (4 พฤษภาคม 2026)\n※ ทดลองแก้ไข Bug โหมดมิตามะแบบทีม",
   "notify": true
 }
